@@ -128,6 +128,10 @@ persist.vendor.camera.expose.aux=1
 persist.vendor.camera.physical.num=4
 persist.vendor.camera.privapp.list=com.motorola.camera3
 
+# Chipset
+ro.soc.manufacturer=QTI
+ro.soc.model=SM7225
+
 # Crypto
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.filenames_mode=aes-256-cts
