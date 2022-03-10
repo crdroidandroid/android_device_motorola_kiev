@@ -86,7 +86,6 @@ BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/motorola/sm7250
 TARGET_KERNEL_CONFIG := vendor/kiev_defconfig
-TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_ADDITIONAL_FLAGS += \
     DTC_PREBUILT=true \
     DTC=$(shell pwd)/prebuilts/misc/$(HOST_OS)-x86/dtc/dtc \
