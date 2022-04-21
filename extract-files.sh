@@ -34,6 +34,13 @@ function blob_fixup() {
     vendor/lib64/libvidhance.so)
         "${PATCHELF}" --print-needed "${2}" |grep -q libcomparetf2_shim || "${PATCHELF}" --add-needed libcomparetf2_shim.so "${2}"
         ;;
+    # Rename camera.mot.is.coming.cts
+    vendor/lib64/com.qti.feature2.gs.so | \
+        vendor/lib64/com.qti.feature2.gs.bitra.so | \
+        vendor/lib64/hw/com.qti.chi.override.so | \
+        vendor/lib64/hw/com.qti.chi.override.bitra.so)
+        sed -i "s/camera.mot.is.coming.cts/vendor.camera.coming.cts/g" "${2}"
+        ;;
     esac
 }
 

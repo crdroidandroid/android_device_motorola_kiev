@@ -1,3 +1,6 @@
+# Camera
+vendor.camera.coming.cts   u:object_r:vendor_camera_prop:s0
+
 # Motorola
 vendor.hw.touch.           u:object_r:moto_boot_prop:s0
 
