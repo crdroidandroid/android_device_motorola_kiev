@@ -34,6 +34,9 @@ persist.data.df.ul_mode=5
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
+# HWUI
+debug.hwui.skia_atrace_enabled=false
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
