@@ -24,6 +24,19 @@ BOARD_VENDOR := motorola
 
 DEVICE_PATH := device/motorola/kiev
 
+# A/B
+AB_OTA_UPDATER := true
+
+AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
+    product \
+    recovery \
+    system \
+    vendor \
+    vbmeta \
+    vbmeta_system
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
