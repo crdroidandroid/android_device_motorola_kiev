@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.motorola.camera3.overlay"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <overlay android:targetName="Camera" android:targetPackage="com.motorola.camera3" android:isStatic="true" />
+</manifest>
