@@ -106,8 +106,8 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.service \
-    android.hardware.soundtrigger@2.2-impl \
     android.hardware.bluetooth.audio-impl \
+    android.hardware.soundtrigger@2.3-impl \
     audio.bluetooth.default \
     audio.primary.lito \
     audio.r_submix.default \
@@ -122,7 +122,8 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     tinymix \
     libtinycompress \
-    libgui_vendor
+    libgui_vendor \
+    sound_trigger.primary.lito
 
 # audio.primary.lito shim
 PRODUCT_PACKAGES += \
