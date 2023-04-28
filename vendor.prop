@@ -152,7 +152,7 @@ vendor.display.disable_offline_rotator=1
 vendor.display.use_smooth_motion=1
 
 # DPM
-persist.vendor.dpm.feature=11
+persist.vendor.dpm.feature=1
 persist.vendor.dpmhalservice.enable=1
 persist.vendor.eab.supported=1
 
@@ -198,8 +198,12 @@ ro.vendor.display.hdr.config=/vendor/etc/hdr_tm_config.xml
 
 # IMS
 persist.vendor.ims.cam_sensor_delay=20
+persist.vendor.ims.disableDebugLogs=1
+persist.vendor.ims.disableDebugDataPathLogs=1
+persist.vendor.ims.disableIMSLogs=1
 persist.vendor.ims.display_delay=40
 persist.vendor.ims.playout_delay=50
+persist.vendor.ims.vt.enableadb=1
 
 # Incremental FS
 ro.incremental.enable=true
@@ -294,8 +298,9 @@ persist.vendor.radio.sw_mbn_update=0
 persist.vendor.radio.start_ota_daemon=0
 persist.vendor.rcs.presence.provision=0
 persist.vendor.vt.supported=1
+rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
 ro.vendor.build.vendorprefix=/vendor
-ro.vendor.radio.imei.sv=5
+ro.vendor.radio.imei.sv=22
 ro.vendor.radio.mbn.load_special_sku=1
 
 # RmNet Data
