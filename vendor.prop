@@ -319,6 +319,9 @@ ro.vendor.hw.thermal_skin_val=battery
 ro.vendor.sensors.glance_approach=false
 ro.vendor.sensors.mot_ltv=true
 
+# SSR
+persist.vendor.ssr.restart_level=ALL_ENABLE
+
 # Surfaceflinger
 ro.surface_flinger.has_HDR_display=true
 ro.surface_flinger.has_wide_color_display=true
