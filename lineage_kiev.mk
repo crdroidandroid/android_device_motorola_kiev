@@ -31,7 +31,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Build info
 #BUILD_FINGERPRINT := "motorola/kiev_retail/kiev:11/RZKS31.Q3-45-16-8-19/cc8087:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT=kiev_retail \
-    PRIVATE_BUILD_DESC="kiev_retail-user 11 RZKS31.Q3-45-16-8-19 cc8087 release-keys"
+    DeviceProduct=kiev_retail \
+    BuildDesc="kiev_retail-user 11 RZKS31.Q3-45-16-8-19 cc8087 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
