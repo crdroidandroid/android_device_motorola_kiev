@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "crdroidandroid/android_device_motorola_sm7250-common",
+    "target_path": "device/motorola/sm7250-common"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_motorola_kiev",
+    "target_path": "vendor/motorola/kiev"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_motorola_sm7250-common",
+    "target_path": "vendor/motorola/sm7250-common"
+  },
+  {
+    "repository": "crdroidandroid/android_kernel_motorola_sm7250",
+    "target_path": "kernel/motorola/sm7250"
+  },
+  {
+    "repository": "crdroidandroid/android_hardware_motorola",
+    "target_path": "hardware/motorola"
+  }
+]
