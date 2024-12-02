@@ -7,6 +7,9 @@
 # Inherit from sm7250-common
 $(call inherit-product, device/motorola/sm7250-common/common.mk)
 
+# Dolby
+$(call inherit-product, hardware/motorola/dolby/setup.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
