@@ -73,3 +73,4 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # inherit from the proprietary version
 include vendor/motorola/kiev/BoardConfigVendor.mk
+include hardware/motorola/dolby/BoardConfigVendor.mk
