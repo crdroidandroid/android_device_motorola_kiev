@@ -63,6 +63,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/odm/unavail.android.hardware.sensor.barometer.xml:$(TARGET_COPY_OUT_ODM)/etc/sku_n/unavail.android.hardware.sensor.barometer.xml \
     $(LOCAL_PATH)/odm/android.hardware.sensor.barometer.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_np/android.hardware.sensor.barometer.xml
 
+# Camera
+PRODUCT_PACKAGES += \
+    MotCamera3Overlay
+
 # Fingerprint
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/uinput-egis.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-egis.idc \
