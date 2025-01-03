@@ -5,7 +5,7 @@
   },
   {
     "repository": "crdroidandroid/proprietary_vendor_motorola_kiev",
-    "target_path": "vendor/motorola/kiev"
+    "target_path": "vendor/motorola/kiev",
     "remote": "crdroid-gitlab"
   }
 ]
