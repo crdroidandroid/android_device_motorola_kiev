@@ -23,7 +23,6 @@ vendor/lib/libtinycompress_vendor.so
 # Audio - Soundfx
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
-vendor/lib/soundfx/libspeakerbundle.so
 
 # Camera
 vendor/etc/camera/aec_golden_wide.bin
