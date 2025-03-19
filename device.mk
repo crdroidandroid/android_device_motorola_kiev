@@ -35,7 +35,7 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.soundtrigger@2.2-impl
+    android.hardware.soundtrigger@2.3-impl
 
 # audio.primary.lito shim
 PRODUCT_PACKAGES += \
