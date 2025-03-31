@@ -1,4 +1,4 @@
-<manifest version="1.0" type="device" target-level="5">
+<manifest version="1.0" type="device" target-level="6">
     <hal format="hidl">
         <name>android.hardware.biometrics.fingerprint</name>
         <transport>hwbinder</transport>
@@ -11,7 +11,7 @@
     <hal format="hidl">
         <name>android.hardware.soundtrigger</name>
         <transport>hwbinder</transport>
-        <version>2.2</version>
+        <version>2.3</version>
         <interface>
             <name>ISoundTriggerHw</name>
             <instance>default</instance>
