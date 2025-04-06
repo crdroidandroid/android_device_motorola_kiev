@@ -175,11 +175,9 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.bitra.so
 # Camera (Firmware)
 vendor/firmware/CAMERA_ICP.elf
 
-# Charger from Edge 30 (14 U1RDS34.80-40-3 11ee6-8c50b)
-vendor/bin/charge_only_mode
+# Charger
 vendor/bin/hvdcp_opti
 vendor/etc/charger_fstab.qti
-vendor/etc/charger_fw_fstab.qti
 vendor/etc/init/hw/init.mmi.charge_only.rc
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 
