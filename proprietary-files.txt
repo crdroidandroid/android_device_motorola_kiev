@@ -20,9 +20,19 @@ vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa-moto.so;FIX_SONAME
 vendor/lib/libmotaudioutils.so
 vendor/lib/libtinycompress_vendor.so
 
-# Audio - Soundfx
-vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libshoebox.so
+# Audio FX modules from OnePlus 9RT MT2111_14.0.0.730(EX01)
+system_ext/etc/permissions/audiosphere.xml|015ad7be4921039238bfa3d34d052d752453e49c
+system_ext/framework/audiosphere.jar|cfe651014a70739e4a2a41dc746fa8111f092bde
+vendor/lib/soundfx/libasphere.so|a742e8196f321571132113e0052b9c947cb9d37a
+vendor/lib/soundfx/libshoebox.so|69d349d37503428a37a61b5cb383f7277b48e999
+vendor/lib/soundfx/libqcbassboost.so|75266de6e9d0eeca3cc40451e144889f21e733f9
+vendor/lib/soundfx/libqcreverb.so|74ab2e295efc544d078378c6f73280d454901707
+vendor/lib/soundfx/libqcvirt.so|2d4f333804fb8a9b2b2d748473f9c531accbb399
+vendor/lib64/soundfx/libasphere.so|041a144b5bc745f6eebbd1423e61af5ced581bbd
+vendor/lib64/soundfx/libshoebox.so|89e9ae5e8b939de847580636860058c5c60afcc1
+vendor/lib64/soundfx/libqcbassboost.so|708756550c0fbf42c0e96fba2f82588d69d26624
+vendor/lib64/soundfx/libqcreverb.so|b05c0ce2831aeb777a4b498408b32c63d81e797a
+vendor/lib64/soundfx/libqcvirt.so|69a2e48c588a3cc388cec47033c629858b64b470
 
 # Camera
 vendor/etc/camera/aec_golden_wide.bin
